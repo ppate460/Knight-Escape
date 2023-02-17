@@ -8,9 +8,7 @@
 	(two squares in a horizontal direction, then one in a vertical direction OR 
 	two squares in a vertical direction, then one in a horizontal direction).
 		       
-    Course: CS 141, Spring 2022
-    System: Visual Studio Code, Windows 10
-    Author: Ellen Kidane
+    Author: Pratik Patel
     
  ---------------------------------------------*/
 
@@ -105,18 +103,18 @@ string getValue(int thePosition)
         case 11: return p11;
         case 12: return p12;
         case 13: return p13;
-		case 14: return p14;
-		case 15: return p15;
-		case 16: return p16;
-		case 17: return p17;
-		case 18: return p18;
-		case 19: return p19;
-		case 20: return p20;
-		case 21: return p21;
-		case 22: return p22;
-		case 23: return p23;
-		case 24: return p24;
-		case 25: return p25;
+	case 14: return p14;
+	case 15: return p15;
+	case 16: return p16;
+	case 17: return p17;
+	case 18: return p18;
+	case 19: return p19;
+	case 20: return p20;
+	case 21: return p21;
+	case 22: return p22;
+	case 23: return p23;
+	case 24: return p24;
+	case 25: return p25;
         // Sanity check
         default: cout << "Invalid value " << thePosition << "sent to the getValue function. This should not happen! Exiting...";
 			exit(-1);
@@ -144,18 +142,18 @@ void setValue(int thePosition, string newValue)
         case 11: p11 = newValue; break;
         case 12: p12 = newValue; break;
         case 13: p13 = newValue; break;
-		case 14: p14 = newValue; break;
-		case 15: p15 = newValue; break;
-		case 16: p16 = newValue; break;
-		case 17: p17 = newValue; break;
-		case 18: p18 = newValue; break;
-		case 19: p19 = newValue; break;
-		case 20: p20 = newValue; break;
-		case 21: p21 = newValue; break;
-		case 22: p22 = newValue; break;
-		case 23: p23 = newValue; break;
-		case 24: p24 = newValue; break;
-		case 25: p25 = newValue; break;
+	case 14: p14 = newValue; break;
+	case 15: p15 = newValue; break;
+	case 16: p16 = newValue; break;
+	case 17: p17 = newValue; break;
+	case 18: p18 = newValue; break;
+	case 19: p19 = newValue; break;
+	case 20: p20 = newValue; break;
+	case 21: p21 = newValue; break;
+	case 22: p22 = newValue; break;
+	case 23: p23 = newValue; break;
+	case 24: p24 = newValue; break;
+	case 25: p25 = newValue; break;
         // Sanity check
         default: cout << "Invalid value " << thePosition << "sent to the setValue function. This should not happen! Exiting...";
 			exit(-1);
