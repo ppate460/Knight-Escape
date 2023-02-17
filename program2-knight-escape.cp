@@ -21,10 +21,10 @@ using namespace std;
 
 // Board pieces
 string p1,p2,p3,p4,p5,
-	 p6,p7,p8,p9,p10,
-	 p11,p12,p13,p14,p15,
-	 p16,p17,p18,p19,p20,
-	 p21,p22,p23,p24,p25;
+       p6,p7,p8,p9,p10,
+       p11,p12,p13,p14,p15,
+       p16,p17,p18,p19,p20,
+       p21,p22,p23,p24,p25;
 
 // Characters of the pieces to be used on the board
 const string WhiteKnight = "\u2658";		// White knight character
@@ -95,7 +95,7 @@ string getValue(int thePosition)
         case 3: return p3;
         case 4: return p4;
         case 5: return p5;
-		case 6: return p6;
+	case 6: return p6;
         case 7: return p7;
         case 8: return p8;
         case 9: return p9;
